@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local Prosper data (do not redistribute unless licensed)
+data/*.csv
+
+# Generated configurations and outputs (keep selected reproducibility artifacts if needed)
+configs/calib.json
+configs/calib_cells.csv
+configs/tau.json
+configs/tuned.json
+outputs/*.csv
+outputs/*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
